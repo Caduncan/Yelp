@@ -11,11 +11,14 @@
 </head>
 
 <body>
+
+
+	<div class="container-fluid">
 	<%= render'layouts/navbar' %> 
+	<%= yield %>
 	<%= render'layouts/bootsrap' %> 
+</div> 
 
-
-<%= yield %>
 
 </body>
 </html>
